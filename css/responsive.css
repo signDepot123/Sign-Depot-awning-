@@ -1,0 +1,368 @@
+/*RESPONSIVE CSS*/
+/*MAX-WIDTH 1200PX*/
+@media (min-width: 1200px) {
+  .main_content {
+    column-count: 4;
+  }
+}
+/*MAX-WIDTH 1199PX*/
+@media(max-width: 1199px){
+/*header*/
+header a.navbar-brand img {
+    max-width: 180px;
+}
+header a.nav-link {
+    font-size: 14px;
+    line-height: 22px;
+}
+/*header end*/
+/*about */
+.about-text-sec {
+    padding: 50px 0;
+}
+.about-text-content p {
+    font-size: 18px;
+    line-height: 29px;
+}
+/*about end*/
+/*footer */
+.footer-card p, .footer-card a {
+    font-size: 20px;
+}
+.copy-right-sec p {
+    font-size: 15px;
+}
+/*footer end*/
+/*awning*/
+.awning-card p {
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+.awning-style-content img {
+    max-width: 550px;
+}
+/*awning end*/
+/*contact*/
+.contact-form_card.cs-right h5 {
+    font-size: 27px;
+    line-height: 38px;
+}
+.main-contact-form {
+    padding: 70px 0;
+}
+/*contact end*/
+/*home page*/
+.why-sign-depot h3.section-heading {
+    line-height: 1.1em;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.why-sign-depot {
+    padding: 50px 0;
+}
+.sign-depot-sign-sec {
+    padding: 50px 0;
+}
+.discuss-design-sec h1 {
+    font-size: 40px;
+    line-height: 48px;
+}
+.discuss-design-sec {
+    padding: 50px 0;
+}
+section.banner-sec .carousel-inner img {
+    height: 490px;
+}
+section.banner-sec .carousel-caption {
+    bottom: 11.5rem!important;
+}
+/*home page end*/
+}
+
+/*MAX-WIDTH 991PX*/
+@media(max-width: 991px){
+/*header*/
+header ul.navbar-nav {
+    text-align: center;
+}
+/*header end*/
+/*about*/
+.about-text-content p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.about-text-content p span {
+    font-size: 18px;
+    line-height: 28px;
+}
+.about-text-content h2 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+/*about end*/
+/*footer*/
+.footer-card p, .footer-card a {
+    font-size: 18px;
+}
+.copy-right-sec p {
+    font-size: 14px;
+}
+/*footer end*/
+/*awning*/
+.awning-sec {
+    padding: 40px 0;
+}
+.awning-style-sec {
+    padding: 40px 0;
+}
+.awning-card h4 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.awning-card p {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.awning-style-content h5 , section.contact-form-sec h1 {
+    margin-bottom: 50px;
+    font-size: 35px;
+    line-height: 45px;
+}
+/*awning end*/
+/*contact*/
+.contact-form_card.cs-right h5 {
+    font-size: 25px;
+    line-height: 35px;
+}
+.contact-form_card.cs-right {
+    padding: 28px;
+}
+/*contact end*/
+/*signage*/
+.cs-card.cs-right p {
+    font-size: 16px;
+    line-height: 23px;
+}
+.cs-card.cs-right h5 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+.image-grid figure figcaption {
+    font-size: 16px;
+    margin-top: 8px;
+    line-height: 22px;
+}
+.sign-service-content .sec-heading {
+    font-size: 32px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+/*signage end*/
+/*home page*/
+section.banner-sec .carousel-caption h3 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.map-sec iframe {
+	height: 400px;
+}
+.why-sign-depot h3.section-heading {
+    line-height: 1.1em;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+/*home page end*/
+.cs-gallery-content .sec-heading {
+    font-size: 28px;
+    line-height: 33px;
+}
+.cs-gallery-sec {
+    padding: 10px 0 40px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .main_content {
+    column-count: 3;
+  }
+}
+/*MAX-WIDTH 767PX*/
+@media(max-width: 767px){
+    .cs-gallery-content .sec-heading {
+    font-size: 25px;
+    line-height: 33px;
+    margin: 15px 0 30px;
+}
+/*about banner*/
+.about-banner {
+    min-height: 350px;
+}
+/*about banner end*/
+.about-text-sec {
+    padding: 40px 0;
+}
+/*footer*/
+.footer-social-icons {
+    margin-top: 20px;
+    justify-content: center;
+}
+button#myBtn {
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+}
+footer .footer-content {
+    padding: 30px 0;
+}
+.footer-card p, .footer-card a {
+    font-size: 16px;
+}
+/*footer end*/
+/*awning*/
+.awning-card img {
+    margin-top: 30px;
+}
+/*awning end*/
+/*contact*/
+.contact-form_card.cs-right {
+    margin-top: 30px;
+}
+.contact-form_card.cs-right a, .contact-form_card.cs-right p {
+    font-size: 16px;
+    line-height: 22px;
+}
+.main-contact-form {
+    padding: 50px 0;
+}
+/*contact end*/
+/*signage*/
+.cs-card.cs-left {
+    width: 100%;
+}
+.cs-card.cs-right {
+    padding: 0 30px 30px 30px;
+    width: 100%;
+}
+.imgae-card ul>li {
+    flex-direction: column;
+}
+.imgae-card ul>li:not(:last-child) {
+    margin-bottom: 30px;
+}
+.cs-card.cs-right {
+    padding: 20px 20px 0px 20px;
+    width: 100%;
+    text-align: center;
+}
+.signage-content .imgae-card {
+    padding: 50px 0 0;
+}
+.signage-sec {
+    padding: 30px 0 50px 0;
+}
+.signage-content p {
+    font-size: 16px;
+}
+.cs-card.cs-right p {
+    margin: 0;
+}
+.sign-service-content .sec-heading {
+    font-size: 29px;
+    line-height: 39px;
+    margin-bottom: 30px;
+}
+.sign-service-content ul li {
+    font-size: 17px;
+    width: 100%;
+    padding: 0 0 6px 0;
+}
+/*signage end*/
+/*home page*/
+section.banner-sec .carousel-inner img {
+    height: 350px;
+}
+section.banner-sec .carousel-caption {
+    bottom: 7.5rem!important;
+}
+.discuss-design-sec h1 {
+    font-size: 35px;
+    line-height: 40px;
+}
+.discuss-design-sec {
+    padding: 40px 0;
+}
+.sign-depot-sign-sec {
+    padding: 40px 0;
+}
+/*home page end*/
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .main_content {
+    column-count: 2;
+  }
+}
+/*MAX-WIDTH 575PX*/
+@media(max-width: 575px){
+.main_content {
+    column-count: 1;
+  }
+.awning-sec {
+    padding: 20px 0;
+}
+.awning-style-sec {
+    padding: 30px 0;
+}
+.awning-style-content h5, section.contact-form-sec h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    line-height: 40px;
+}
+.outer-box-form {
+    padding: 20px;
+}
+.contact-form_content textarea {
+    resize: unset;
+    height: 80px;
+}
+.outer-box-form .form-label {
+    font-size: 14px;
+    margin: 0;
+}
+.outer-box-form h1.mb-3 {
+    font-size: 24px;
+    line-height: 31px;
+    margin: 0 0 10px!important;
+}
+section.banner-sec .carousel-caption h3 {
+    font-size: 25px;
+    line-height: 35px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.discuss-design-sec h1 {
+    font-size: 28px;
+    line-height: 31px;
+}
+.discuss-design-sec {
+    padding: 40px 0;
+}
+.sign-depot-sign-sec {
+    padding: 40px 0;
+}
+.why-sign-depot h3.section-heading {
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 38px;
+}
+.map-sec iframe {
+    height: 350px;
+}
+}
+
+/*RESPONSIVE END CSS*/
